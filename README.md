@@ -112,11 +112,8 @@ schtasks /create /sc daily /tn "WeatherDataFetch" /tr "python path\to\weather_sc
 
 ### 7. Troubleshooting
 Common Issues and Fixes
-| Issue | Solution |
-|------------------------------------|----------------------------------------------------|
-|Connection to PostgreSQL fails| Ensure PostgreSQL is running, and credentials are correct|
-|-------------------------------------|---------------------------------------------------|
-|API request fails| Check if the API key is valid and rate limits are not exceeded|
-|------------------------------------|--------------------------------------------|
-|Data not showing in Power BI |Ensure the table contains data and refresh the connection|
-|------------------------------------|--------------------------------------------------|
+| **Issue**                          | **Solution**                                          |
+|------------------------------------|------------------------------------------------------|
+| Connection to PostgreSQL fails     | Ensure PostgreSQL is running, and credentials are correct. |
+| API request fails                  | Check if the API key is valid and rate limits are not exceeded. |
+| Data not showing in Power BI       | Ensure the table contains data and refresh the connection. |
